@@ -13,5 +13,9 @@ class LogDebug {
         fun e(txt : String){
             Log.e(LOG_TAG , txt)
         }
+
+        fun v(txt : String){
+            Log.v(LOG_TAG , txt)
+        }
     }
 }
