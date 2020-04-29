@@ -1,20 +1,20 @@
 package com.digitaleg.loglibrary.Logs
 
 import android.util.Log
+import com.example.constants.Constants
 
 class LogDebug {
     companion object{
-        private const val LOG_TAG = "log-tag"
         fun d(txt : String){
-            Log.d(LOG_TAG , txt)
+            Log.d(Constants.LOG_D , txt)
         }
 
         fun e(txt : String){
-            Log.e(LOG_TAG , txt)
+            Log.e(Constants.LOG_E , txt)
         }
 
         fun v(txt : String){
-            Log.v(LOG_TAG , txt)
+            Log.v(Constants.LOG_V , txt)
         }
     }
 }
